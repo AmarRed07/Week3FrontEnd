@@ -33,7 +33,7 @@ img {
     background-color: teal;
 } */
 #fontcolor {
-    color: purple;
+    color:firebrick;
 }
 #warningColor {
     color:red;
@@ -63,6 +63,6 @@ tr :hover {
 }
 
 #backToHomeColor {
-    color: pink;
+    color:black;
 }
 

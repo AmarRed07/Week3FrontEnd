@@ -30,16 +30,37 @@
             </p>
         </div><br><br>
             <h3>
-                Examples of buttons:
+                Examples of buttons: 
             </h3>
+            <p> 
+                The buttons below will stack vertically as the window gets smaller.
+            </p>
+
+            <div class="container-fluid">
             <button class="btn btn-primary"> Primary Button </button>
             <button class="btn btn-secondary"> Secondary </button>
+            <button class="btn btn-success"> Success </button>
+            <button class="btn btn-warning"> Warning </button>
+            <button class="btn btn-info"> Info </button>
+            <button class="btn btn-danger"> Danger </button>
+            <p>
+                Keep your buttons on! This is just an example of a regular<button class="btn btn-link"> Link </button>button.
+            </p>
             <br><br><br><br><br>
+            </div>
+
+
             <h1> This is a Styled Table:</h1>
                 <h3>
-                    Things I have learned this week!
+                    Things I have learned this week! Read description below please!
                 </h3>
-            <table class="table table-dark table-hover">
+               
+               
+               
+               
+            <div class="container">
+            <!-- <div class="row"> -->
+                <table class="table table-dark table-hover">
                 <tr>
                     <th> Level of Understanding </th>
                     <th> What I learned </th>
@@ -60,20 +81,58 @@
                     <td>NavBar</td>
                     <td>Hard</td>
                 </tr>
-        </table>
-
-
+            <!-- </div> -->
+                </table>
+            </div>  
+            <p>
+                The above styled table will also stack, but the window will not get small enough to
+                stack vertically. It was set into class (container) instead of (container-fluid)
+                because the container class looks better with this styled table.
+            </p><br><br><br><br>
 
 
         <h2 id="large-text" class="shadow-text">
             Click link below for a Bootstrap Navbar!
         </h2>
-            <a href = "navbar.html"> NavBar </a><br><br><br><br>
+
+        <a href = "navbar.html"><button class="btn btn-secondary">NavBar </button></a><br><br><br><br>
 
         <h1>
             Clink link below for Bootstrap Grid!
         </h1>
-            <a href = "week3BootstrapGrid.html"> Bootstrap Grid </a> <br><br><br><br><br>
+
+            <a href = "week3BootstrapGrid.html"><button class="btn btn-info"> Bootstrap Grid </button></a> <br><br><br><br><br>
+
+
+
+
+
+            <h3>
+                Please tell me if you enjoyed this website by selecting one of the choices below!
+            </h3>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                <label class="form-check-label" for="exampleRadios1">
+                  Loved it!
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                <label class="form-check-label" for="exampleRadios2">
+                  Hated it.
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                <label class="form-check-label" for="exampleRadios2">
+                  Quit the BootCamp, uninstall everything, and live in the mountains off the land.
+                </label>
+              </div><br><br><br>
+
+
+
+
+
         </div>
     </body>
 </html>
