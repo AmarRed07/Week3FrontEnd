@@ -16,7 +16,7 @@
         <div>
         <h1>
             All about BootStrap
-        </h1>
+        </h1><br>
         <p id="intro-P" class="shadow-text">
           This website will be to show my understanding of bootstrap thus far. 
           So <b>strap</b> up your <b>boots</b> and get ready for some HTML/CSS fun!!
@@ -93,13 +93,13 @@
 
         <h2 id="large-text" class="shadow-text">
             Click link below for a Bootstrap Navbar!
-        </h2>
+        </h2><br>
 
         <a href = "navbar.html"><button class="btn btn-secondary">NavBar </button></a><br><br><br><br>
 
         <h1>
             Clink link below for Bootstrap Grid!
-        </h1>
+        </h1><br>
 
             <a href = "week3BootstrapGrid.html"><button class="btn btn-info"> Bootstrap Grid </button></a> <br><br><br><br><br>
 
@@ -109,26 +109,43 @@
 
             <h3>
                 Please tell me if you enjoyed this website by selecting one of the choices below!
-            </h3>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-                <label class="form-check-label" for="exampleRadios1">
-                  Loved it!
-                </label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
-                <label class="form-check-label" for="exampleRadios2">
-                  Hated it.
-                </label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
-                <label class="form-check-label" for="exampleRadios2">
-                  Quit the BootCamp, uninstall everything, and live in the mountains off the land.
-                </label>
-              </div><br><br><br>
-
+            </h3><br><br>
+              <form>
+                <div class="form-group row">
+                  <label id="fontsize"  for="inputEmail3" class="col-sm-2 col-form-label"> Please provid Email Address: </label>
+                  <div class="container" class="col-sm-10">
+                    <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                  </div>
+                </div><br>
+                <fieldset class="form-group">
+                  <div class="row">
+                    <legend id="fontsize" class="col-form-label col-sm-2 pt-0"> Feedback: </legend>
+                    <div class="col-sm-10">
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                        <label class="form-check-label" for="gridRadios1">
+                          Loved it!
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                        <label class="form-check-label" for="gridRadios2">
+                          Hated it!
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                        <label class="form-check-label" for="gridRadios1">
+                            Quit the BootCamp, uninstall everything, and live in the mountains off the land.
+                        </label><br><br>
+                      </div>
+                <div class="form-group row">
+                  <div class="col-sm-10">
+                    <button type="submit" class="btn btn-primary"> Send Feedback </button>
+                  </div>
+                </div>
+              </form>
+              <br><br><br>
 
 
 

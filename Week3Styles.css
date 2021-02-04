@@ -32,6 +32,9 @@ img {
 /* body {
     background-color: teal;
 } */
+#fontsize {
+    font-size: larger;
+}
 #fontcolor {
     color:firebrick;
 }
