@@ -4,12 +4,12 @@
 /* h1 {
     text-shadow: slategray 2px 2px;
 } */
-div {
+/* div { */
     /* border-color: transparent; 
     border-style: solid; 
     border-color: orangered; 
     border-radius: 5px; */
-}
+/* } */
 .shadow-text {
     text-shadow: slategray 1px 1px;
 }
@@ -69,3 +69,10 @@ tr :hover {
     color:black;
 }
 
+
+
+div.only {
+    border-style: inset;
+    border-color:oldlace;
+    padding: 5px;
+}

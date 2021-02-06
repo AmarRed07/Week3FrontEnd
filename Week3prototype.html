@@ -3,16 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Navbar</title>
+    <title>Grid</title>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="Week3Styles.css">
     <style>
         body {
-            background-color: navajowhite;
+            background-color:navajowhite;
         }
     </style>
 </head>
-<body class="container">
-    
+<body>
+<!-- navbar -->
     <nav class="navbar navbar-expand sm navbar-dark bg-dark">
         <a class="navbar-brand" href="Week3Bootstrap.html">BoStrapX</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
@@ -44,10 +45,46 @@
             </ul>
         </div>
     </nav>
+<!-- start body -->
+    <h1>
+        This is to show the use of Grid in the assignment.
+    </h1><br>
+<!-- start of Grid -->
+<div class="container">
+<div class="only">
+   <div class="row">
+       <div class="col-sm" id="fontcolor">
+        Will
+       </div>
+       <div class="col-sm" id="fontcolor">
+        Stack
+       </div>
+       <div class="col-sm" id="fontcolor">
+        As
+       </div>
+   </div>
+</div>
+</div>
 
+<div class="container-fluid">
+    <div class="only">
+    <div class="row">
+        <div class="col-sm" id="fontcolor">
+         Window
+        </div>
+        <div class="col-sm" id="fontcolor">
+         Gits
+        </div>
+        <div class="col-sm" id="fontcolor">
+         Smaller
+        </div>
+    </div>
+</div>
+</div>
 
-    <script src="node_modules/jquery/dist/jquery.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
-    <a href="Week3Bootstrap.html"><button class="btn btn-primary"> Git Back to Homepage </button></a>
+<script src="node_modules/jquery/dist/jquery.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+<a href = "Week3Bootstrap.html"><button class="btn btn-primary"> Git Back to Homepage </button></a> <br>
+
 </body>
 </html>
